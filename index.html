@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Development Showcase</title>
+  </head>
+
+<body>
+<nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://tragicpanda10.github.io/finale/">TragicPanda10</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="navbar-item"><a href="https://tragicpanda10.github.io/finale/" class="nav-link">Home</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">About Me</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">Projects</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="d-flex flex-column blanket justify-content-center align-items-center">
+    <image src="images/tuna.png" alt="image of fish" style="width: 20rem; height:auto;"></image>
+    <h1 class="text-light display-1">Animal Crossing Fish Aggregator</h1>
+</div>
+
+<div class="d-flex flex-column justify-content-center align-items-center section-space">
+    <div class="body-space">
+        <p>
+            Animal Crossing is a massively popular social simulation game where players can run around, 
+            build houses, farm, collect items, talk with locals, become part of a town, and more. 
+        </p>
+        <p>
+            One aspect of the game is fishing. There are 80 different fish to catch in the game, so trying to 
+            catch them all is no easy feat. Using APIs and React, we can make this process a little easier 
+            to navigate.
+        </p>
+    </div>
+    <image class='shadow' src="/images/allfish.webp" style="max-width:800px"></image>
+    <p class="text-center mt-3">In-game image of a fish collection</p>
+
+</div>
+
+<div class="p-3 accent d-flex flex-column justify-content-center">
+    <div class="body-space">
+      <h1 class="titling">Objective</h1>
+      <p class="fs-4 lead">
+        Create a fish aggregator which will help players find specific fish to go catch in the
+        game.
+      </p>
+    </div>
+</div> 
+
+<div class="section-space">
+    <div class="body-space d-flex flex-column justify-content-center">
+        <h1 class="titling">ACNH API</h1>
+        <div class="row align-items-center">
+            <div class="flex-column" style="max-width:30vw">
+                <p>
+                    Animal Crossing New Horizons (ACNH) API is a publicly available API that contains data
+                    for nearly all the assets found in the game. I used this API to get all the available 
+                    information about all the fish for the aggregator. 
+                </p>
+                <p>
+                    I decided to only include the price, rarity, location, and description of each fish
+                    because I considered these to be the most important details for someone 
+                    looking to make a list of fish to catch.
+                </p>
+            </div>
+            <image class='shadow' src="images/fishcard.png" style="max-height:70vh; width:auto; border-radius: 1rem;"></image>
+            <image src="images/api.png" style="max-height:70vh; width:auto; border-radius: 2rem;"></image>
+
+        </div>
+    </div>
+</div>
+
+<div class="section-space">
+    <div class="body-space d-flex flex-column justify-content-center">
+        <h1 class="titling">Filters and Sorting</h1>
+        <div class="row align-items-center">
+            <image class='shadow' src="images/filters.png" style="max-width:15vw;"></image>
+            <div class="col" style="max-width:50vw">
+            <p>
+                The aggregator can filter by rarity or location or both, making it easy to find fish based on 
+                the in-game area you're in. 
+            </p>
+            <p>
+                By default, the fish are sorted alphabetically. However, you can sort by price or by increasing rarity.
+            </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-space">
+    <div class="d-flex body-space flex-column align-items-center">
+        <h1 class="titling">Check it out!</h1>
+        <a href="https://tragicpanda10.github.io/development/">
+            <image src="images/webpage.png" class="shadow cardstock" style="max-width:50vw;" />
+        </a>
+    </div>
+</div>
+
+<div class="section-space bg-dark text-light">
+    <div class="d-flex body-space flex-column">
+        <h1 class="display-6">Takeaways</h1>
+        <div class="container">
+            <ul class="list-group list-group-flush ms-5" style="max-width:960px;">
+                <li class="list-group-item bg-dark text-light fs-4">
+                    • Using React is really cool! It makes adding functionality to front end 
+                    components simpler than using HTML and javascript separately.
+                </li>
+                <li class="list-group-item bg-dark text-light fs-4">
+                    • There are APIs for everything, and they make accessing information very easy
+                    for computers. 
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

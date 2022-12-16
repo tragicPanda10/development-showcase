@@ -1,0 +1,61 @@
+body {
+    font-family:Helvetica, sans-serif;
+}
+
+.blanket {
+    background:
+    linear-gradient(to bottom right, rgba(229, 138, 11, 0.6), rgba(22, 147, 80, 0.6)),
+    url('./images/background1.jpg') center;
+    height: 70vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section-space {
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.body-space {
+    margin:auto;
+    padding-bottom:0rem;
+    max-width:1080px;
+}
+
+.titling {
+    color:rgb(3, 43, 89);
+    font-size:3rem;
+
+}
+
+.subtitling {
+    font-size:2rem;
+    color:rgb(26, 114, 169);
+}
+
+.accent {
+    background: linear-gradient(to bottom right, rgb(224, 162, 75), rgb(56, 211, 128));
+    height: 70vh;
+}
+
+p {
+    font-family:'Verdana';
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.cardstock {
+    transition: all 0.3s;
+  
+  }
+  
+  .cardstock:hover {
+    transform:scale(1.1);
+  }
